@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.poppins-regular-font {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+/* color section */
+
+:root{
+    --primary-color:rgba(224, 44, 109, 1);
+    --secondary-color:rgba(58, 58, 58, 1);
+    --deep-blue:rgba(10, 8, 38, 1);
+}
+
+
+
+
+
+
+
+
+  nav{
+    margin: 8vh auto;
+    width: 80vw;
+    height: 2.5rem;
+  }
+nav .nav-container{
+    margin: 0 auto;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;        
+    
+  }
+  .nav-container .logo h3{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-left:1rem ;
+
+  }
+  .link-section ul{
+    min-width:20vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+  }
+  .link-section ul li{
+    font-size:1.2rem;
+    font-weight: 600;
+    
+    line-height: 2.5rem;
+    margin-right: 1rem;
+    list-style: none;
+  }
+  .link-section ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+
+  .link-section ul li a:hover{
+    background-color: var(--primary-color);
+    padding:10px  20px;
+    border-radius: 10px;
+    margin-left: 5px;
+
+  }
+
+
+  .link-section ul svg,
+  .link-section ul img
+  {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.8rem;
+  }
+
+  /* hero-section */
+  #hero-section{
+    margin: 0 auto;
+    width: 80vw; 
+  }
+   #hero-section .hero-container{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   #hero-section .hero-container .hero-content{
+    max-width: 60%;
+
+   }
+   #hero-section .hero-container .hero-content h1{
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 0.5rem;
+
+    color: var(--secondary-color);
+   }
+   #hero-section .hero-container .hero-content p{
+    font-size: 1.2rem;
+    max-width: 60%;
+    color: var(--secondary-color);
+   }
+
+
+   #hero-section .hero-container .hero-image-box{
+    max-width: 500px;
+    background-image: url("/images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   }
+   #hero-section .hero-container .hero-image-box img{
+    width: 500px;
+    border: 1px solid var(--secondary-color);
+   }
+
+   .primary-btn{
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    display: flex;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    gap: 10px;
+   }
+   .primary-btn:hover{
+    background: var(--deep-blue);
+   }
+   .primary-btn:active{
+    border: 1px solid white;
+   }
+   .primary-btn span svg{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-left: 0.5rem;
+
+   }
