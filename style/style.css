@@ -123,7 +123,7 @@ nav .nav-container{
    }
    #hero-section .hero-container .hero-image-box img{
     width: 500px;
-    border: 1px solid var(--secondary-color);
+    
    }
 
    .primary-btn{
@@ -153,3 +153,18 @@ nav .nav-container{
     margin-left: 0.5rem;
 
    }
+
+   #sponsor-section{
+    margin: 0 auto;
+    max-width: 80vw;
+   }
+   #sponsor-section .sponsor-container{
+    margin: 4rem 4rem;
+
+    /* filter:grayscale(100%);  */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    
+   }    
+
+  
