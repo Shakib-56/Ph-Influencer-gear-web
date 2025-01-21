@@ -147,11 +147,11 @@ nav .nav-container{
    .primary-btn:active{
     border: 1px solid white;
    }
-   .primary-btn span svg{
+   .primary-btn span img{
     width: 20px;
     height: 20px;
     color: white;
-    margin-left: 0.5rem;
+    /* margin-left: 0.5rem; */
 
    }
 
@@ -176,6 +176,7 @@ nav .nav-container{
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
+    color: var(--secondary-color);
    }
    #card-section .card-container{
     display: grid;
@@ -184,7 +185,7 @@ nav .nav-container{
     row-gap: 2rem;
     margin-bottom: 2rem;
     position: relative;
-    margin-bottom: 2rem;
+    
 
    }
    .card-container .card{
@@ -196,25 +197,75 @@ nav .nav-container{
    }
   
     
+   .card-container .card h3{
+    color: var(--secondary-color);
+   }
    .card-container .card .card-image-box img,
    .card-content
    {
     width: 100%;
-    margin: 0.5rem;
+    margin: 0.87rem;
     height:fit-content;
    }
    
    .btn-box{
-    width: 65vw;
+    width:65vw;
     margin: 0 auto;
     display: flex;
     justify-content: end;
    }
+   
    .card-btn{
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    display: flex;
+    background-color: transparent;
     border: none;
-    font-size: 20px;
-    font-weight: 700;
-    background: transparent;
+    color:var(--primary-color);
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: space-around;
     cursor: pointer;
-    color: var(--primary-color);
+    gap: 10px;
    }
+   .card-btn span img{
+   background-color: var(--primary-color);
+   }
+
+   #featured-products{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin-bottom: 5rem;
+   }
+
+   #featured-products .featured-content{
+    width:80vw;
+    height:10vh ;
+    
+   }
+   #featured-products .featured-content h3{
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+   }
+   #featured-products .featured-content p{
+    font-size: 0.87rem;
+    width: 30vw;
+    margin: 1rem;
+    color: var(--secondary-color);
+   }
+ .featured-btn{
+ padding:0.5rem 2rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ color: white;
+ font-size: 20px;
+ align-items: center;
+ background-color: var(--primary-color);
+ border: none;
+ margin-top: 2rem;
+ }
