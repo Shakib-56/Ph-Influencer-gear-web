@@ -190,7 +190,7 @@ nav .nav-container{
    }
    .card-container .card{
     border-radius: 0.5rem;
-    max-width: 20vw;
+    max-width: 24vw;
     max-height:70vh;
     padding: 1rem;
     box-shadow: 0.5rem 0.5rem 0.5rem whitesmoke;
@@ -268,4 +268,46 @@ nav .nav-container{
  background-color: var(--primary-color);
  border: none;
  margin-top: 2rem;
+ }
+ #footer-section{
+  width: 100vw;
+  height: 40vh;
+  background-color: var(--deep-blue);
+ }
+ #footer-section .footer-container{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ #footer-section .footer-container .footer-content{
+  margin-top: 5rem ;
+  text-align: center;
+ }
+ #footer-section .footer-container .footer-content h3{
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1rem;  
+ }
+ #footer-section .footer-container .footer-content p{
+  font-size: 1rem;
+  color:var(--secondary-color);
+  line-height: 2rem;
+  margin-bottom: 1rem;
+ }
+
+ #footer-section .footer-container .social-icon ul{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+
+ }
+ #footer-section .footer-container .social-icon ul li{
+  list-style: none;
+ }
+ #footer-section .footer-container .social-icon ul li a img{
+  width: 2.5rem;
+  height: 2.5rem;
  }
